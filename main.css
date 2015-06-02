@@ -7,6 +7,11 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
 }
 body {
 	padding: 0 0 0 0;
+	/*background-color: #5f5f5f;
+	background-image: url(images/gobbler.png);
+	background-position: top left;
+	background-repeat: repeat;*/
+	background: #000000 url(images/stardust.png) top left repeat;
 }
 .header {
 	padding: 10px 10px 10px 10px;
@@ -25,6 +30,7 @@ body {
 	padding: 20px 20px 20px 20px;
 	border: 1px solid #dddddd;
 	margin: 30px auto 0 auto;
+	background: #ffffff url(images/crossword.png) top left repeat;
 }
 h1 {
 	color: #ffffff;
@@ -73,6 +79,8 @@ a {
 	border: 1px solid #b56663;
 	padding-left: 15px;
 	margin-bottom: 10px;
+	background-color: #ffffff;
+/*	background: #ffffff url(images/li-bg.png) top left repeat;*/
 }
 .recipes h3 {
 	border-bottom: 0;
@@ -89,6 +97,21 @@ a {
 	display: inline;
 	padding-left: 11px; 
 }
+.featured-image {
+	width: 500;
+	height: 195px;
+	background: #ffffff url(images/featured-cake.png) top left no-repeat;
+}
+.featured-image h3 {
+	margin: 0;
+	background-color: #333333;
+	color: #ffffff;
+	padding: 5px 0 5px 15px;
+	text-transform: uppercase;
+}
+
+
+
 
 
 
