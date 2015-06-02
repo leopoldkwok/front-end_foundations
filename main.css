@@ -28,19 +28,52 @@ ul {
 	padding: 0 0 0 50px;
 }
 
-ol {
+ol { 
 	padding: 0 0 0 50px;
 }
 
 ul li {
-	display: inline;
+	
 }
 
 a {
 	text-decoration: none;
 }
 
+.nav {
+	padding-left: 0;
+}
 
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	color: #0000af;
+	text-decoration: none;
+}
+
+.recipes {
+	list-style-type: none;
+	padding: 0;
+}
+
+.recipes li {
+	border: 1px solid #b56663;
+	padding-left: 15px;
+	margin-bottom: 10px;
+
+}
+
+.recipes h3 {
+	border-bottom: 0;
+}
+
+.recipes a {
+	color: #7facaa;
+	text-decoration: none;
+}
 /*p {
 	text-decoration: underline;
 	color: red;
