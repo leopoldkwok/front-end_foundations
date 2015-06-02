@@ -7,15 +7,35 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
 }
 
 body {
+	padding: 0 0 0 0;
+}
+
+.header {
+	padding: 10px 10px 10px 10px;
+	background-color: #b56663;
+}
+
+.header a {
+	color: #ffffff;
+}
+
+.main-content {
+	width: 500px;
 	padding: 20px 20px 20px 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto;
 }
 
 h1 {
-	margin: 10px 0 15px 0;
+	color: #ffffff;
+	margin: 0 0 15px 0;
+	text-align: center;
+	
 }
 
 h2 {
 	margin: 10px 0 20px 0;
+	text-align: center;
 }
 
 h3 {
@@ -42,6 +62,8 @@ a {
 
 .nav {
 	padding-left: 0;
+	margin: 5px 0 20px 0;
+	text-align: center;
 }
 
 
