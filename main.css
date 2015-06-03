@@ -1,9 +1,11 @@
-/* reset default styles*/
+/* reset default styles and font-size*/
 
 html, body, h1, h2, h3, p, ol, ul, li, a {
 	padding: 0;
 	border: 0;
 	margin: 0;
+	font-size: 100%;
+	font: inherit;
 }
 body {
 	padding: 0 0 0 0;
@@ -12,6 +14,7 @@ body {
 	background-position: top left;
 	background-repeat: repeat;*/
 	background: #000000 url(images/stardust.png) top left repeat;
+	font-family: Helvetica, Arial, "Times New Roman",sans-serif;
 }
 .header {
 	padding: 10px 10px 10px 10px;
@@ -26,6 +29,7 @@ body {
 	margin: 0 auto 0 auto;
 }
 .main-content {
+	line-height: 26px;
 	width: 500px;
 	padding: 20px 20px 20px 20px;
 	border: 1px solid #dddddd;
@@ -38,8 +42,11 @@ h1 {
 	text-align: center;	
 }
 h2 {
+	color: #7facaa;
 	margin: 10px 0 20px 0;
 	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
 }
 h3 {
 	margin: 15px 0 15px 0;
@@ -77,9 +84,9 @@ a {
 }
 .recipes li {
 	border: 1px solid #b56663;
-	padding-left: 15px;
 	margin-bottom: 10px;
 	background-color: #ffffff;
+	 height: 90px;
 /*	background: #ffffff url(images/li-bg.png) top left repeat;*/
 }
 .recipes h3 {
@@ -114,6 +121,14 @@ a {
 	text-transform: uppercase;
 }
 
+.footer p {
+	color: #aaaaaa;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	font-style: italic;
+	text-trasnform: uppercase;
+}
 
 
 
